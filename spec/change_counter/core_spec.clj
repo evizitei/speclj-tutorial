@@ -1,15 +1,10 @@
 (ns change-counter.core-spec
-  (:require [speclj.core :refer :all]))
-
-(defn true-or-false []
-  true)
+  (:require [speclj.core :refer :all]
+            [change-counter.core :refer :all]))
 
 (describe "truthiness"
   (it "tests if true-or-false returns true"
     (should (true-or-false))))
-
-(defn equals-5? [n]
-  (= 5 n))
 
 (describe "Understanding Speclj Components"
   (before-all
