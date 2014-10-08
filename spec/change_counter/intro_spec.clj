@@ -1,6 +1,6 @@
-(ns change-counter.core-spec
+(ns change-counter.intro-spec
   (:require [speclj.core :refer :all]
-            [change-counter.core :refer :all]))
+            [change-counter.intro :refer :all]))
 
 (describe "truthiness"
   (it "tests if true-or-false returns true"

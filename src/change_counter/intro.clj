@@ -1,4 +1,4 @@
-(ns change-counter.core)
+(ns change-counter.intro)
 
 (defn true-or-false []
   true)
